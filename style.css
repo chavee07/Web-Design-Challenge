@@ -18,7 +18,7 @@ h2{
 
 p{
     font-size: 125%;
-    text-align: justify;
+    text-align: center;
 }
 
 .col-xl-3{
@@ -54,13 +54,9 @@ p{
     text-align: center;
     margin-left: 40px;
     margin-right: 20px;
+    margin:10px
 }
 
-#a3{
-    color: rgb(2, 2, 182);
-    margin: auto;
-    text-align: center;
-}
 
 #a4{
     margin: 10px;
@@ -71,20 +67,32 @@ p{
 }
 
 
-.navbar{
-    text-align: right;
+/* .navbar{
+    text-align: left;
     background-color: black;
     color: rgb(51, 131, 250);
-    font-size: xx-large;  
-}
+    font-size: xx-large;   */
 
-.navbar-brand{
-    
+
+/* .navbar-brand{
+    color: rgb(25, 25, 228);
+    font-weight: bold;
+    text-decoration: underline;
 } */
 
+.navbar-light .navbar-brand {
+    color: rgb(20, 231, 185);
+    font-weight: strong;
+    text-decoration: underline;
+    
+}
+
+
+
+
 #a0{
-    color: rgb(51, 131, 250);
-    font-size: large;
+    color:rgb(20, 231, 185);
+    font-size: medium;
 }
 
 .nav-link:hover{
