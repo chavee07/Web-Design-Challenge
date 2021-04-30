@@ -134,7 +134,7 @@ p{
       background: none;
       margin-left: 300px;
     } 
-   */
+   /* */
    @media screen and (max-width: 992px) {
     /* start of large tablet styles */
     .img-responsive {
@@ -154,5 +154,5 @@ p{
     /* It's possible to hide the image if the screen becomes too small */
     .img-responsive {
       min-width: 100%;
-    }
+    } 
 }
